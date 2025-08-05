@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ldbwn-xywuw
+created: 2025-08-03T20:23:06-03:00
