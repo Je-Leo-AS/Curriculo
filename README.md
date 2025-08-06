@@ -1,4 +1,4 @@
-# MOdelo de Currículo
+# Modelo de Currículo
 
 ## Descrição
 Este repositório contém meu currículo profissional, escrito em Typst com o template `modern-resume`. Ele apresenta minha formação, experiências, projetos e habilidades como engenheiro eletricista, cientista de dados e desenvolvedor de software e firmware.
