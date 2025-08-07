@@ -144,6 +144,15 @@
   date-from: ""
 )
 
+#project(
+  title: "Tradutor de currículo automático",
+  description: [
+   - Sistema de tradução automatizada de currículo com CrewAI e Typst, hospedado no GitHub (Je-Leo-AS/Curriculo), com versões em português (PT-BR) e inglês (EN) em branches separadas. Implementei GitHub Actions para disparar traduções automáticas via CrewAI, atualizando a branch EN. 
+  ],
+  date-from: ""
+)
+
+
 == Habilidades
 
 #pill("Python", fill: true)
