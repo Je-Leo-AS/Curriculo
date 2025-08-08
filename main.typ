@@ -1,4 +1,3 @@
-```typ
 #import "@preview/modern-resume:0.1.0": modern-resume, experience-work, experience-edu, project, pill
 
 #show: modern-resume.with(
@@ -197,4 +196,3 @@
 
 #pill("Portuguese (native)")
 #pill("English (C1)")
-```
