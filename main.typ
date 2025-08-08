@@ -1,3 +1,4 @@
+```typ
 #import "@preview/modern-resume:0.1.0": modern-resume, experience-work, experience-edu, project, pill
 
 #show: modern-resume.with(
@@ -19,11 +20,11 @@
   title: "Bachelor's Degree in Electrical Engineering",
   subtitle: "Federal University of Paraná",
   task-description: [
-    - Digital Electronics and Microelectronics Monitor, assisting with exercises, questions, and laboratory practices.
-    - Taught Python course for Chemical Engineering.
+    - Teaching assistant in Digital Electronics and Microelectronics, assisting with exercises, doubts, and laboratory practices.
+    - Conducted Python course for Chemical Engineering.
     - Administrative manager of Seatel, organizing courses, lectures, and technical visits.
-    - Participant of PET: IoPET (IoT and firmware), BigPET (machine learning, leader), PET3D (design and 3D printing, leader).
-    - Developed electrical subsystem for off-road vehicle (wiring harness, PCB, firmware, 3D modeling in Catia). Achievements: 1st place in South Regional electrical project 2019, 11th place national Baja SAE 2020, 2nd place in South Regional electrical project 2020.
+    - Member of PET: IoPET (IoT and firmware), BigPET (machine learning, leader), PET3D (design and 3D printing, leader).
+    - Developed electrical subsystem for off-road vehicle (wiring harness, PCB, firmware, 3D modeling in Catia). Achievements: 1st place regional electrical project South 2019, 11th place national Baja SAE 2020, 2nd place regional electrical project South 2020.
   ],
   date-from: "03/2019",
   date-to: "12/2024",
@@ -47,7 +48,7 @@
   subtitle: "IoTag Technology",
   facility-description: "Company focused on precision agriculture",
   task-description: [
-    - Developed firmware in C/C++ for virtual terminal interfaces for agricultural machinery.
+    - Developed firmware in C/C++ for virtual terminal interfaces of agricultural machines.
     - Created data science algorithms for spatial data and equipment collection.
     - Implemented scalable cloud services with AWS and databases.
   ],
@@ -60,8 +61,8 @@
   subtitle: "Lactec",
   facility-description: "Institute of technology and research",
   task-description: [
-    - Assisted in the development of capacitive sensors for water level and flow for osmotic power generation.
-    - Enhanced skills in electronics, microcontroller programming, and system integration.
+    - Assisted in the development of capacitive water level and flow sensors for hydroelectric power generator.
+    - Enhanced skills in electronics, microcontroller programming, and systems integration.
   ],
   date-from: "06/2022",
   date-to: "10/2022",
@@ -76,7 +77,7 @@
   task-description: [
     - Developed wiring harness, PCBs, and firmware.
     - 3D modeling in Catia.
-    - Achievements: 1st place in South Regional electrical project 2019, 11th place national 2020, 2nd place South Regional 2020.
+    - Achievements: 1st place regional electrical project South 2019, 11th place national 2020, 2nd place regional South 2020.
   ],
   date-from: "01/2019",
   date-to: "12/2021",
@@ -97,12 +98,12 @@
 #experience-work(
   title: "Project Manager and Member",
   subtitle: "Tutorial Education Program (PET)",
-  facility-description: "Graduation enhancement program",
+  facility-description: "Undergraduate enhancement program",
   task-description: [
     - IoPET: Developed electronic lock with ESP01 and MQTT.
     - BigPET: Led machine learning projects, taught course and developed fake news detector.
     - PET3D: Led design and 3D printing, including supports for face shield masks during the pandemic.
-    - Digital Electronics and Microelectronics Monitor.
+    - Teaching assistant in Digital Electronics and Microelectronics.
   ],
   date-from: "08/2021",
   date-to: "12/2024",
@@ -139,7 +140,15 @@
 #project(
   title: "Fake News Detector",
   description: [
-    - System for identifying the veracity of news with text processing and machine learning (Logistic Regression, KNN, Random Forest).
+    - System for verifying the truthfulness of news with text processing and machine learning (Logistic Regression, KNN, Random Forest).
+  ],
+  date-from: ""
+)
+
+#project(
+  title: "Automatic Resume Translator",
+  description: [
+   - Automated resume translation system using CrewAI and Typst, hosted on GitHub (Je-Leo-AS/Curriculo), with versions in Portuguese (PT-BR) and English (EN) in separate branches. Implemented GitHub Actions to trigger automated translations via CrewAI, updating the EN branch.
   ],
   date-from: ""
 )
@@ -188,3 +197,4 @@
 
 #pill("Portuguese (native)")
 #pill("English (C1)")
+```
