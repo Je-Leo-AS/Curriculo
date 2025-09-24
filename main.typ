@@ -7,7 +7,7 @@
   contact-options: (
     email: link("mailto:leonardo_as20@hotmail.com")[leonardo_as20\@hotmail.com],
     mobile: "(+55) 41-98826-7727",
-    location: "Goiânia, Goias, Brazil",
+    location: "Bundall, Queensland, Australia",
     linkedin: link("https://linkedin.com/in/leonardo-20-as")[ linkedin.com/in/leonardo-20-as],
     github: link("https://github.com/Je-Leo-AS")[ github.com/Je-Leo-AS],
   ),
