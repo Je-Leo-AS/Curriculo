@@ -152,6 +152,17 @@
   date-from: ""
 )
 
+#project(
+  title: "Automação n8n — agentes de IA para manutenção e gestão de comunicações",
+  description: [
+    - Plataforma de automação com n8n para orquestrar fluxos e agentes de IA internos.
+    - Agente "Proxmox Care": monitora o servidor Proxmox na rede privada e executa tarefas de manutenção (verificação de recursos, notificações de anomalias, agendamento de atualizações, rotinas de backup e limpeza). Funciona em ambiente isolado com autenticação por chaves e permissões restritas para preservar a segurança da rede.
+    - Agente "Comms Manager": gerencia mensagens e e-mails do número e e-mail profissional — faz ingestão, classificação por prioridade, resumo automático, respostas padrão e roteamento para canais (tickets, Slack, CRM). Usa NLP para detectar urgência e extrair entidades relevantes.
+    - Integração por webhooks, filas e registros de auditoria; automações acionadas por eventos, com logs e notificações para garantir rastreabilidade e revisão humana quando necessário.
+  ],
+  date-from: ""
+)
+
 
 == Habilidades
 
@@ -172,6 +183,7 @@
 #pill("Comunicação Interpessoal", fill: true)
 #pill("Planejamento", fill: true)
 #pill("Gestão de Tempo", fill: true)
+#pill("N8N", fill: true)
 
 == Certificados
 
