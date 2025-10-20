@@ -5,8 +5,8 @@
   job-title: "Engenheiro Eletricista | Cientista de Dados | Desenvolvedor de Software",
   bio: "Engenheiro eletricista com experiência em projetos elétricos, circuitos integrados, firmware e software. Especializado em sistemas digitais para processamento de sinais e ciência de dados, com foco em inovação e eficiência.",
   contact-options: (
-    email: link("mailto:leonardo_as20@hotmail.com")[leonardo_as20\@hotmail.com],
-    mobile: "(+55) 41-98826-7727",
+    email: link("mailto:leo.santos.engineering@gmail.com")[leo.santos.engineering\@gmail.com],
+    mobile: "(+55) 62 99684-3248",
     location: "Bundall, Queensland, Australia",
     linkedin: link("https://linkedin.com/in/leonardo-20-as")[ linkedin.com/in/leonardo-20-as],
     github: link("https://github.com/Je-Leo-AS")[ github.com/Je-Leo-AS],
