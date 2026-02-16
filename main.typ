@@ -5,7 +5,7 @@
   job-title: "Electrical Engineer | Data Scientist | Software Developer",
   bio: "Electrical engineer with experience in electrical projects, integrated circuits, firmware, and software. Specialized in digital systems for signal processing and data science, with a focus on innovation and efficiency.",
   contact-options: (
-    email: link("mailto:leonardo_as20@hotmail.com")[leonardo_as20\@hotmail.com],
+    email: link("mailto:leo.santos.engineering@gmail.com")[leo.santos.engineering\@gmail.com],
     mobile: "(+61) 415 846 213",
     location: "Surfers Paradise, Queensland, Australia",
     linkedin: link("https://linkedin.com/in/leonardo-20-as")[ linkedin.com/in/leonardo-20-as],
