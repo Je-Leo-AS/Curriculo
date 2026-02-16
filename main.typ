@@ -10,6 +10,7 @@
     location: "Surfers Paradise, Queensland, Australia",
     linkedin: link("https://linkedin.com/in/leonardo-20-as")[ linkedin.com/in/leonardo-20-as],
     github: link("https://github.com/Je-Leo-AS")[ github.com/Je-Leo-AS],
+    website: link("https://je-leo-as.github.io")[je-leo-as.github.io]
   ),
 )
 
