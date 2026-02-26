@@ -53,7 +53,7 @@
     - Implementou serviços escaláveis em nuvem com AWS e bancos de dados.
   ],
   date-from: "10/2022",
-  date-to: "Presente",
+  date-to: "02/2026",
 )
 
 #experience-work(
