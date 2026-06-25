@@ -354,7 +354,6 @@
 #pill("Linux")
 #pill("Neovim")
 
-#colbreak()
 
 == Certificações e Cursos
 
