@@ -25,7 +25,7 @@
     - Área de pesquisa: circuitos digitais e processamento de sinais para telecomunicações.
     - Tema da dissertação: arquiteturas de Pré-distorção Digital (DPD) eficientes em hardware para linearização de amplificadores de potência de RF.
     - Desenvolveu e avaliou um modelo Memory Polynomial dependente de atraso para modelagem de amplificadores de potência, visando reduzir a complexidade computacional e de hardware.
-    - Implementou e verificou a arquitetura proposta em VHDL, com validação orientada a FPGA e exploração de fluxo de projeto ASIC.
+    - Implementou e verificou a arquitetura proposta em VHDL, com validação orientada a FPGA e análise de custo de hardware.
     - Defesa da dissertação prevista para dezembro de 2026.
     - Orientador: Prof. Eduardo Gonçalves de Lima.
   ],
@@ -63,7 +63,7 @@
 #project(
   title: "Dissertação de Mestrado — Pré-distorção Digital para Amplificadores de Potência de RF",
   description: [
-    - Em andamento. A pesquisa foca em modelagem de DPD, análise em ponto fixo, implementação em VHDL, validação em FPGA e exploração de projeto orientado a ASIC.
+    - Em andamento. A pesquisa foca em modelagem de DPD, análise em ponto fixo, implementação em VHDL, validação em FPGA e análise de eficiência em hardware.
     - Inclui avaliação de modelos Memory Polynomial, estruturas de ordem variável, implementações baseadas em LUT e compromissos entre custo de hardware e precisão de modelagem.
   ],
   date-from: "2025--2026"
@@ -168,10 +168,25 @@
     - Desenvolveu uma abordagem de ordens polinomiais dependentes de atraso, avaliando 125 configurações de modelo e compromissos de Pareto entre precisão e complexidade.
     - Implementou a arquitetura em VHDL com datapaths pipeline e configurabilidade baseada em generate.
     - Verificou a consistência numérica entre modelos em Python e resultados de simulação em VHDL.
-    - Explorou fluxos de implementação em FPGA e ASIC usando Xilinx, ferramentas de simulação e ferramentas de CIs digitais baseadas em Cadence.
+    - Explorou validação orientada a FPGA usando ferramentas Xilinx e ferramentas de simulação.
   ],
   date-from: "03/2025",
   date-to: "Presente",
+  label: "Atividades de pesquisa",
+)
+
+#experience(
+  title: "Pesquisador de Graduação — Pré-distorção Digital",
+  subtitle: "GICS-UFPR / Universidade Federal do Paraná",
+  facility-description: "Modelagem, processamento em ponto fixo e implementação de DPD",
+  task-description: [
+    - Desenvolveu pesquisa de iniciação científica em Pré-distorção Digital baseada em Memory Polynomial para amplificadores de potência de RF.
+    - Em 2023, avaliou a acurácia de modelos Memory Polynomial com processamento em ponto fixo, trabalho publicado em conferência.
+    - Em 2024, desenvolveu no TCC o projeto em VHDL e a exploração de implementação como circuito integrado do pré-distorcedor digital.
+    - Demonstrou o comportamento do pré-distorcedor e avaliou a relação entre precisão de modelagem, aritmética em ponto fixo e custo de hardware.
+  ],
+  date-from: "08/2022",
+  date-to: "12/2024",
   label: "Atividades de pesquisa",
 )
 
@@ -187,7 +202,7 @@
     - Validou a qualidade da saída aleatória usando testes estatísticos NIST.
   ],
   date-from: "08/2021",
-  date-to: "12/2024",
+  date-to: "08/2022",
   label: "Atividades de pesquisa",
 )
 
@@ -268,11 +283,11 @@
 #project(
   title: "Pré-distorcedor Digital Eficiente em Hardware em VHDL",
   description: [
-    - Implementou uma arquitetura VHDL configurável para DPD baseada em Memory Polynomial.
-    - Usou datapaths pipeline, aritmética em ponto fixo e ordens polinomiais dependentes de atraso.
-    - Comparou utilização de recursos orientada a FPGA e precisão de modelagem em relação a implementações convencionais.
+    - Desenvolveu pesquisa em DPD ao longo de três etapas: análise de acurácia, implementação em ponto fixo e pesquisa de mestrado.
+    - Em 2024, realizou no Trabalho de Conclusão de Curso o projeto em VHDL e a exploração de implementação como circuito integrado do pré-distorcedor digital.
+    - No mestrado, aprofundou a modelagem, a análise em ponto fixo, a implementação em VHDL e a validação orientada a FPGA, sem etapa de projeto de CI.
   ],
-  date-from: "2025--2026"
+  date-from: "2023--2026"
 )
 
 #project(
@@ -282,7 +297,7 @@
     - Sintetizou e explorou a implementação física usando Cadence Genus e Innovus.
     - Validou a aleatoriedade da saída com testes estatísticos NIST.
   ],
-  date-from: "2021--2024"
+  date-from: "2021--2022"
 )
 
 #project(
