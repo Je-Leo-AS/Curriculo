@@ -1,211 +1,377 @@
-#import "@preview/modern-resume:0.1.0": modern-resume, experience-work, experience-edu, project, pill
+#import "@preview/modern-resume:1.0.0": modern-resume, experience, project, pill
 
 #show: modern-resume.with(
-  author: "Leonardo Santos",
-  job-title: "Electrical Engineer | Data Scientist | Software Developer",
-  bio: "Electrical engineer with experience in electrical projects, integrated circuits, firmware, and software. Specializing in digital systems for signal processing and data science, with a focus on innovation and efficiency.",
+  author: "Leonardo de Andrade Santos",
+  job-title: "Electrical Engineering | Digital IC, FPGA, DSP & Embedded Systems | Researcher in Digital Predistortion",
+  bio: "Electronic engineer and MSc researcher working across FPGA-based digital design, embedded firmware, and software development, with hands-on experience in VHDL, C/C++, Python, and hardware-efficient Digital Predistortion architectures.",
   contact-options: (
-    email: link("mailto: leo.santos.engineering@gmail.com")[leo.santos.engineering\@gmail.com],
+    email: link("mailto:leo.santos.engineering@gmail.com")[leo.santos.engineering\@gmail.com],
     mobile: "(+61) 415 846 213",
-    location: "Surfers Paradise, Queensland, Australia",
-    linkedin: link("https://linkedin.com/in/leonardo-20-as")[ linkedin.com/in/leonardo-20-as],
-    github: link("https://github.com/Je-Leo-AS")[ github.com/Je-Leo-AS],
+    location: "Sydney, NSW, Australia",
+    linkedin: link("https://linkedin.com/in/leonardo-20-as")[linkedin.com/in/leonardo-20-as],
+    github: link("https://github.com/Je-Leo-AS")[github.com/Je-Leo-AS],
     website: link("https://je-leo-as.github.io")[je-leo-as.github.io]
   ),
 )
 
-== Academic Background
+#set text(size: 9pt)
 
-#experience-edu(
-  title: "Bachelor's Degree in Electrical Engineering",
-  subtitle: "Federal University of Paraná",
-  task-description: [
-    - Monitor of Digital Electronics and Microelectronics, assisting with exercises, questions, and lab practices.
-    - Taught Python course for Chemical Engineering.
-    - Administrative manager of Seatel, organizing courses, lectures, and technical visits.
-    - Participant in PET: IoPET (IoT and firmware), BigPET (machine learning, leader), PET3D (design and 3D printing, leader).
-    - Developed electrical subsystem for off-road vehicle (wiring harness, PCB, firmware, 3D modeling in Catia). Achievements: 1st place in Regional South electrical project 2019, 11th place nationally Baja SAE 2020, 2nd place in Regional South electrical project 2020.
-  ],
-  date-from: "03/2019",
-  date-to: "12/2024",
-)
+== Education
 
-#experience-edu(
+#experience(
   title: "Master's Degree in Electrical Engineering",
-  subtitle: "Federal University of Paraná",
+  subtitle: "Federal University of Paraná (UFPR), Brazil",
   task-description: [
-    - Research in digital circuits for telecommunications, focusing on signal processing and hardware optimization.
-    - Study of FPGA and ASIC architectures for energy efficiency in embedded wireless communication systems.
+    - Research area: digital circuits and signal processing for telecommunications.
+    - Thesis topic: hardware-efficient Digital Predistortion (DPD) architectures for RF power amplifier linearization.
+    - Developed and evaluated a delay-dependent Memory Polynomial model for power amplifier modeling, targeting reduced computational and hardware complexity.
+    - Implemented and verified the proposed architecture in VHDL, with FPGA-oriented validation and ASIC design flow exploration.
+    - Expected thesis defense: December 2026.
+    - Advisor: Prof. Eduardo Gonçalves de Lima.
   ],
   date-from: "03/2025",
   date-to: "Present",
+  label: "Research",
+)
+
+#experience(
+  title: "Bachelor's Degree in Electrical Engineering",
+  subtitle: "Federal University of Paraná (UFPR), Brazil",
+  task-description: [
+    - Strong focus on electronics, digital systems, embedded systems, signal processing, and integrated circuits.
+    - Teaching assistant in Digital Electronics and Microelectronics.
+    - Participated in PET UFPR projects involving IoT, machine learning, 3D printing, technical courses, and student-led engineering initiatives.
+    - Member of UFPR Baja SAE electrical subsystem, working on wiring harnesses, PCBs, firmware, telemetry, and vehicle electronics.
+  ],
+  date-from: "03/2019",
+  date-to: "12/2024",
+  label: "Focus",
+)
+
+== Publications and Academic Output
+
+#project(
+  title: "Power Amplifier Modeling Using Memory Polynomials with Delay-dependent Polynomial Orders",
+  description: [
+    - Accepted for oral presentation at the 16th Workshop on Circuits and Systems Design (WCAS 2026).
+    - Work related to MSc research on hardware-efficient DPD models for RF power amplifier linearization.
+    - Proposed a Memory Polynomial variation with delay-dependent polynomial orders to balance modeling accuracy and hardware resource utilization.
+  ],
+  date-from: "2026"
+)
+
+#project(
+  title: "MSc Dissertation — Digital Predistortion for RF Power Amplifiers",
+  description: [
+    - In progress. Research focuses on DPD modeling, fixed-point analysis, VHDL implementation, FPGA validation, and ASIC-oriented design exploration.
+    - Includes evaluation of Memory Polynomial models, variable-order structures, LUT-based implementations, and hardware cost versus modeling accuracy trade-offs.
+  ],
+  date-from: "2025--2026"
+)
+
+=== Full Papers in Conference Proceedings
+
+#project(
+  title: "Digital predistorter described in VHDL and based on Memory Polynomial",
+  subtitle: "Lima, E. G.; Franca, S. B. L.; Santos, L. A. — SeMicro-PR, Curitiba, Brazil",
+  description: [
+    - Conference paper related to VHDL implementation of a Memory Polynomial-based digital predistorter.
+  ],
+  date-from: "2024"
+)
+
+#project(
+  title: "Accuracy of Memory Polynomials with fixed-point processing",
+  subtitle: "Lima, E. G.; Franca, S. B. L.; Santos, L. A. — Paranaense Microelectronics Conference, Curitiba, Brazil",
+  description: [
+    - Conference paper focused on fixed-point processing accuracy in Memory Polynomial-based modeling.
+  ],
+  date-from: "2023"
+)
+
+#project(
+  title: "Design of a dedicated integrated circuit for a TRNG based on ring oscillators",
+  subtitle: "Santos, L. A.; Franca, S. B. L.; Lima, E. G. — SeMicro-PR, Curitiba, Brazil",
+  description: [
+    - Conference paper on a dedicated integrated circuit design for a ring-oscillator-based True Random Number Generator.
+  ],
+  date-from: "2022"
+)
+
+=== Abstracts in Conference Proceedings
+
+#project(
+  title: "FPGA-based digital predistorters for wireless transmitters",
+  subtitle: "Santos, L. A.; Lima, E. G.; Franca, S. B. L. — 14th SIEPE, Curitiba, Brazil",
+  date-from: "2023"
+)
+
+#project(
+  title: "Design of a dedicated integrated circuit for a TRNG based on ring oscillators",
+  subtitle: "Santos, L. A.; Franca, S. B. L. — 13th SIEPE, Curitiba, Brazil",
+  date-from: "2022"
+)
+
+=== Selected Presentations and Academic Events
+
+#project(
+  title: "Paranaense Microelectronics Conference — Seminar presentation",
+  subtitle: "Digital predistorter described in VHDL and based on Memory Polynomial",
+  date-from: "2024"
+)
+
+#project(
+  title: "Paranaense Microelectronics Conference — Seminar presentation",
+  subtitle: "Accuracy of Memory Polynomials with fixed-point processing",
+  date-from: "2023"
+)
+
+#project(
+  title: "SIEPE — Seminar presentation",
+  subtitle: "FPGA-based digital predistorters for wireless transmitters",
+  date-from: "2023"
+)
+
+#project(
+  title: "Paranaense Microelectronics Conference — Seminar presentation",
+  subtitle: "Design of a dedicated integrated circuit for a TRNG based on ring oscillators",
+  date-from: "2022"
+)
+
+#project(
+  title: "SIEPE — Seminar presentation",
+  subtitle: "Dedicated integrated circuit project for a TRNG based on ring oscillators",
+  date-from: "2022"
+)
+
+#project(
+  title: "SIEPE — Seminar presentation",
+  subtitle: "BigPET: a pedagogical and scientific experiment in data science and machine learning",
+  date-from: "2021"
+)
+
+#project(
+  title: "SIEPE — Seminar presentation",
+  subtitle: "PET 3D: encouraging maker culture within PET",
+  date-from: "2021"
+)
+
+== Research Experience
+
+#experience(
+  title: "MSc Researcher — Digital Predistortion and Hardware-Efficient DSP",
+  subtitle: "GICS-UFPR / Federal University of Paraná",
+  facility-description: "Research in circuits and systems for telecommunications",
+  task-description: [
+    - Modeled RF power amplifier behavior using Memory Polynomial-based Digital Predistortion techniques.
+    - Evaluated floating-point and fixed-point implementations, including word-length optimization and integer-bound search.
+    - Developed a delay-dependent polynomial order approach, evaluating 125 model configurations and Pareto trade-offs between accuracy and complexity.
+    - Implemented the architecture in VHDL with pipelined datapaths and generate-based configurability.
+    - Verified numerical consistency between Python models and VHDL simulation results.
+    - Explored FPGA and ASIC implementation flows using Xilinx, simulation tools, and Cadence-based digital IC tools.
+  ],
+  date-from: "03/2025",
+  date-to: "Present",
+  label: "Research tasks",
+)
+
+#experience(
+  title: "Undergraduate Researcher — TRNG Integrated Circuit",
+  subtitle: "GICS-UFPR / Federal University of Paraná",
+  facility-description: "Digital circuit design and integrated circuit implementation",
+  task-description: [
+    - Designed and evaluated a True Random Number Generator (TRNG) based on ring oscillators.
+    - Implemented and validated the architecture in VHDL and FPGA-oriented flows.
+    - Designed the circuit using a 130 nm BiCMOS 8HP technology flow.
+    - Used Cadence tools including NCLaunch, Genus, and Innovus for simulation, synthesis, and physical design exploration.
+    - Validated random output quality using NIST statistical tests.
+  ],
+  date-from: "08/2021",
+  date-to: "12/2024",
+  label: "Research tasks",
+)
+
+== Teaching and Academic Activities
+
+#experience(
+  title: "Teaching Assistant — Digital Electronics and Microelectronics",
+  subtitle: "Federal University of Paraná (UFPR)",
+  facility-description: "Undergraduate teaching support",
+  task-description: [
+    - Assisted students with digital electronics, microelectronics concepts, laboratory practices, and technical exercises.
+    - Supported practical activities involving digital logic, circuit analysis, and implementation-oriented topics.
+  ],
+  date-from: "2021",
+  date-to: "2024",
+  label: "Teaching support",
+)
+
+#experience(
+  title: "Python Course Instructor",
+  subtitle: "Federal University of Paraná (UFPR)",
+  facility-description: "Technical training for Chemical Engineering students",
+  task-description: [
+    - Taught introductory Python programming for engineering applications.
+    - Covered programming fundamentals, problem solving, and practical computational examples.
+  ],
+  date-from: "2021",
+  date-to: "2024",
+  label: "Course topics",
+)
+
+#experience(
+  title: "Administrative Manager and Project Member",
+  subtitle: "SEATEL / PET UFPR",
+  facility-description: "Student academic and extension activities",
+  task-description: [
+    - Organized courses, technical lectures, workshops, and academic activities.
+    - Participated in IoPET, BigPET, and PET3D projects involving IoT, machine learning, 3D printing, and educational outreach.
+  ],
+  date-from: "08/2021",
+  date-to: "12/2024",
+  label: "Activities",
 )
 
 == Professional Experience
 
-#experience-work(
-  title: "Software Developer / Data Scientist",
+#experience(
+  title: "Embedded and Software Engineer",
   subtitle: "IoTag Tecnologia",
-  facility-description: "Company focused on precision agriculture",
+  facility-description: "Precision agriculture and embedded IoT systems",
   task-description: [
-    - Developed firmware in C/C++ for virtual terminal interfaces for agricultural machinery.
-    - Created data science algorithms for spatial data and equipment collection.
-    - Implemented scalable cloud services with AWS and databases.
+    - Developed embedded firmware in C/C++ for ESP32/ESP8266-based devices and virtual terminal interfaces for agricultural machinery.
+    - Built Python backend services using Flask/FastAPI, SQLAlchemy, PostgreSQL, Cassandra, and AWS S3.
+    - Developed computer vision and data processing tools using OpenCV and Python.
+    - Worked with Linux-based development workflows, embedded debugging, cloud integration, and database-backed applications.
+    - Contributed to CI/CD and automation workflows for software deployment and maintenance.
   ],
   date-from: "10/2022",
   date-to: "02/2026",
+  label: "Achievements/Tasks",
 )
 
-#experience-work(
+#experience(
   title: "Engineering Intern",
   subtitle: "Lactec",
   facility-description: "Technology and research institute",
   task-description: [
-    - Assisted in the development of capacitive water level and flow sensors for tidal energy generators.
-    - Enhanced skills in electronics, microcontroller programming, and system integration.
+    - Supported the development of capacitive water level and flow sensors for tidal energy generation systems.
+    - Worked on electronics, microcontroller programming, sensor integration, and experimental validation.
   ],
   date-from: "06/2022",
   date-to: "10/2022",
+  label: "Achievements/Tasks",
 )
 
-== Complementary Activities
+== Selected Technical Projects
 
-#experience-work(
-  title: "Member of Electrical Subsystem and Management",
-  subtitle: "UFPR Baja SAE",
-  facility-description: "Extension project for off-road vehicle",
-  task-description: [
-    - Developed wiring harness, PCBs, and firmware.
-    - 3D modeling in Catia.
-    - Achievements: 1st place in Regional South electrical project 2019, 11th place nationally 2020, 2nd place in Regional South 2020.
+#project(
+  title: "Hardware-Efficient Digital Predistorter in VHDL",
+  description: [
+    - Implemented a configurable VHDL architecture for Memory Polynomial-based DPD.
+    - Used pipelined datapaths, fixed-point arithmetic, and delay-dependent polynomial orders.
+    - Compared FPGA-oriented resource utilization and modeling accuracy against conventional implementations.
   ],
-  date-from: "01/2019",
-  date-to: "12/2021",
+  date-from: "2025--2026"
 )
 
-#experience-work(
-  title: "Scientific Researcher",
-  subtitle: "GICS",
-  facility-description: "Research group in circuits and systems",
-  task-description: [
-    - Developed TRNG in VHDL, implemented in FPGA and designed with Cadence.
-    - Modeled DPD based on Memory Polynomial in Python, implemented in VHDL and validated with Xilinx.
+#project(
+  title: "TRNG Integrated Circuit in 130 nm Technology",
+  description: [
+    - Designed a ring-oscillator-based TRNG using VHDL and digital IC implementation tools.
+    - Synthesized and explored physical implementation using Cadence Genus and Innovus.
+    - Validated output randomness with NIST statistical tests.
   ],
-  date-from: "08/2021",
-  date-to: "12/2024",
+  date-from: "2021--2024"
 )
 
-#experience-work(
-  title: "Project Manager and Member",
-  subtitle: "Tutorial Education Program (PET)",
-  facility-description: "Undergraduate enhancement program",
-  task-description: [
-    - IoPET: Developed electronic lock with ESP01 and MQTT.
-    - BigPET: Led machine learning projects, taught course and developed fake news detector.
-    - PET3D: Led design and 3D printing, including supports for face shield masks during the pandemic.
-    - Monitor of Digital Electronics and Microelectronics.
+#project(
+  title: "UFPR Baja SAE Electrical System",
+  description: [
+    - Developed wiring harnesses, telemetry support, embedded firmware, and PCB-related tasks for an off-road competition vehicle.
+    - Participated in system integration, electrical design, and vehicle testing.
+    - Team achievements included 1st place in the 2019 Regional South electrical project, 11th place nationally in 2020, and 2nd place in the 2020 Regional South electrical project.
   ],
-  date-from: "08/2021",
-  date-to: "12/2024",
+  date-from: "2019--2021"
 )
+
+#project(
+  title: "IoPET Smart Lock",
+  description: [
+    - Developed an IoT electronic lock using ESP-01/ESP8266 and MQTT for remote control and embedded communication.
+  ],
+  date-from: "2021--2024"
+)
+
+#project(
+  title: "BigPET Fake News Detector",
+  description: [
+    - Led a machine learning project for text classification and fake news detection using Python.
+    - Explored models such as Logistic Regression, KNN, and Random Forest.
+  ],
+  date-from: "2021--2024"
+)
+
+== Technical Skills
+
+#pill("VHDL", fill: true)
+#pill("Verilog", fill: true)
+#pill("FPGA design", fill: true)
+#pill("Digital IC design", fill: true)
+#pill("ASIC flow", fill: true)
+#pill("Fixed-point DSP", fill: true)
+#pill("Digital predistortion", fill: true)
+#pill("RF power amplifier modeling", fill: true)
+#pill("Python", fill: true)
+#pill("MATLAB", fill: true)
+#pill("C/C++", fill: true)
+#pill("Embedded Linux", fill: true)
+#pill("ESP32/ESP8266", fill: true)
+#pill("FastAPI", fill: true)
+#pill("Flask", fill: true)
+#pill("PostgreSQL", fill: true)
+#pill("SQLAlchemy", fill: true)
+#pill("Cassandra", fill: true)
+#pill("AWS S3", fill: true)
+#pill("OpenCV", fill: true)
+#pill("Git", fill: true)
+#pill("CI/CD", fill: true)
+
+== EDA, Simulation and Development Tools
+
+#pill("Cadence Genus")
+#pill("Cadence Innovus")
+#pill("Cadence NCLaunch")
+#pill("Xilinx ISE")
+#pill("Vivado")
+#pill("ModelSim / Questa")
+#pill("GHDL")
+#pill("GTKWave")
+#pill("Yosys")
+#pill("ADS")
+#pill("Altium Designer")
+#pill("Proteus")
+#pill("Linux")
+#pill("Neovim")
 
 #colbreak()
 
-== Projects
+== Certifications and Coursework
 
 #project(
-  title: "Virtual Assistant",
-  description: [
-    - Multimodal assistant with LangChain for NLP, FastAPI for backend, and speech recognition. Frontend in JavaScript.
-  ],
+  title: "Machine Learning with Python",
+  subtitle: "60 hours",
   date-from: ""
 )
 
 #project(
-  title: "Electronic Lock",
-  description: [
-    - Smart lock with ESP-01 (ESP8266) and MQTT protocol for remote control.
-  ],
+  title: "Databases and SQL",
+  subtitle: "60 hours",
   date-from: ""
 )
-
-#project(
-  title: "TRNG Integrated Circuit",
-  description: [
-    - TRNG in 130 nm with VHDL, optimized in FPGA, synthesized with Genus and routed with Innovus (43 cells, 41 µW).
-  ],
-  date-from: ""
-)
-
-#project(
-  title: "Fake News Detector",
-  description: [
-    - System for verifying the truthfulness of news using text processing and machine learning (Logistic Regression, KNN, Random Forest).
-  ],
-  date-from: ""
-)
-
-#project(
-  title: "Automatic Resume Translator",
-  description: [
-   - Automated resume translation system with CrewAI and Typst, hosted on GitHub (Je-Leo-AS/Curriculo), with versions in Portuguese (PT-BR) and English (EN) in separate branches. Implemented GitHub Actions to trigger automatic translations via CrewAI, updating the EN branch. 
-  ],
-  date-from: ""
-)
-
-#project(
-  title: "n8n Automation — AI agents for maintenance and communication management",
-  description: [
-    - Automation platform with n8n to orchestrate workflows and internal AI agents.
-    - Agent "Proxmox Care": monitors the Proxmox server on the private network and performs maintenance tasks (resource checks, anomaly notifications, scheduling updates, backup, and cleanup routines). Operates in an isolated environment with key authentication and restricted permissions to preserve network security.
-    - Agent "Comms Manager": manages messages and emails from the professional number and email — ingests, classifies by priority, automatic summaries, standard responses, and routing to channels (tickets, Slack, CRM). Uses NLP to detect urgency and extract relevant entities.
-    - Integration via webhooks, queues, and audit logs; automations triggered by events, with logs and notifications to ensure traceability and human review when necessary.
-  ],
-  date-from: ""
-)
-
-== Skills
-
-#pill("Python", fill: true)
-#pill("VHDL", fill: true)
-#pill("C/C++", fill: true)
-#pill("Java", fill: true)
-#pill("JavaScript", fill: true)
-#pill("PHP", fill: true)
-#pill("HTML/CSS", fill: true)
-#pill("3D Modeling (SolidWorks, Fusion 360, Catia)", fill: true)
-#pill("Circuit Design (Cadence, ADS)", fill: true)
-#pill("Circuit Simulation (Proteus)", fill: true)
-#pill("PCB (Altium Designer)", fill: true)
-#pill("Python Frameworks (OpenCV, FastAPI, LangChain)", fill: true)
-#pill("Databases and SQL", fill: true)
-#pill("Web Development", fill: true)
-#pill("Interpersonal Communication", fill: true)
-#pill("Planning", fill: true)
-#pill("Time Management", fill: true)
-#pill("N8N", fill: true)
-
-== Certifications
 
 #project(
   title: "Android Development",
   subtitle: "60 hours",
   date-from: ""
 )
-
-#project(
-  title: "Machine Learning",
-  subtitle: "60 hours",
-  date-from: ""
-)
-
-#project(
-  title: "Databases",
-  subtitle: "60 hours",
-  date-from: ""
-)
-
-== Languages
-
-#pill("Portuguese (native)")
-#pill("English (C1)")
