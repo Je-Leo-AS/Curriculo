@@ -2,8 +2,8 @@
 
 #show: modern-resume.with(
   author: "Leonardo de Andrade Santos",
-  job-title: "Electrical Engineering | Digital IC, FPGA, DSP & Embedded Systems | Researcher in Digital Predistortion",
-  bio: "Electronic engineer and MSc researcher working across FPGA-based digital design, embedded firmware, and software development, with hands-on experience in VHDL, C/C++, Python, and hardware-efficient Digital Predistortion architectures.",
+  job-title: "Electrical Engineering | Digital Predistortion, RF Power Amplifiers, FPGA, DSP and Digital IC Design",
+  bio: "Master's researcher in Electrical Engineering investigating hardware-efficient Digital Predistortion (DPD) architectures for RF power amplifier linearization. Research focuses on behavioral modeling, fixed-point DSP, FPGA-oriented architectures, VHDL validation, and hardware-efficient algorithms for wireless transmitters.",
   contact-options: (
     email: link("mailto:leo.santos.engineering@gmail.com")[leo.santos.engineering\@gmail.com],
     mobile: "(+61) 415 846 213",
@@ -19,15 +19,15 @@
 == Education
 
 #experience(
-  title: "Master's Degree in Electrical Engineering",
+  title: "M.Sc. in Electrical Engineering",
   subtitle: "Federal University of Paraná (UFPR), Brazil",
   task-description: [
-    - Research area: digital circuits and signal processing for telecommunications.
-    - Thesis topic: hardware-efficient Digital Predistortion (DPD) architectures for RF power amplifier linearization.
-    - Developed and evaluated a delay-dependent Memory Polynomial model for power amplifier modeling, targeting reduced computational and hardware complexity.
-    - Implemented and verified the proposed architecture in VHDL, with FPGA-oriented validation and ASIC design flow exploration.
-    - Expected thesis defense: December 2026.
-    - Advisor: Prof. Eduardo Gonçalves de Lima.
+    - Research area: digital circuits and signal processing for wireless communications.
+    - Dissertation topic: hardware-efficient Digital Predistortion (DPD) architectures for RF power amplifier linearization.
+    - Investigated delay-dependent Memory Polynomial models for RF power amplifier behavioral modeling, targeting reduced computational complexity and hardware cost.
+    - Validated VHDL architectures with FPGA-oriented verification and hardware-cost analysis.
+    - Expected dissertation defense: August 2026.
+    - Supervisor: Prof. Eduardo Gonçalves de Lima.
   ],
   date-from: "03/2025",
   date-to: "Present",
@@ -35,65 +35,76 @@
 )
 
 #experience(
-  title: "Bachelor's Degree in Electrical Engineering",
+  title: "B.Sc. in Electrical Engineering",
   subtitle: "Federal University of Paraná (UFPR), Brazil",
   task-description: [
-    - Strong focus on electronics, digital systems, embedded systems, signal processing, and integrated circuits.
+    - Academic emphasis on electronics, digital systems, embedded systems, signal processing, and integrated circuits.
     - Teaching assistant in Digital Electronics and Microelectronics.
-    - Participated in PET UFPR projects involving IoT, machine learning, 3D printing, technical courses, and student-led engineering initiatives.
-    - Member of UFPR Baja SAE electrical subsystem, working on wiring harnesses, PCBs, firmware, telemetry, and vehicle electronics.
+    - Member of PET UFPR, contributing to university outreach, complementary technical education, and student-led academic projects.
+    - Member of the UFPR Baja SAE electrical subsystem, contributing to team-based engineering design and competitive academic activities.
   ],
   date-from: "03/2019",
   date-to: "12/2024",
-  label: "Focus",
+  label: "Emphasis",
 )
 
-== Publications and Academic Output
+== Research Interests
+
+#pill("Digital Predistortion (DPD)", fill: true)
+#pill("RF Power Amplifiers", fill: true)
+#pill("Behavioral Modeling", fill: true)
+#pill("Digital Signal Processing", fill: true)
+#pill("FPGA-based Signal Processing", fill: true)
+#pill("Digital IC Design", fill: true)
+#pill("Wireless Communications", fill: true)
+#pill("Hardware-Efficient Algorithms", fill: true)
+
+== Publications
 
 #project(
-  title: "Power Amplifier Modeling Using Memory Polynomials with Delay-dependent Polynomial Orders",
+  title: "Power Amplifier Modeling Using Memory Polynomials with Delay-Dependent Polynomial Orders",
   description: [
     - Accepted for oral presentation at the 16th Workshop on Circuits and Systems Design (WCAS 2026).
-    - Work related to MSc research on hardware-efficient DPD models for RF power amplifier linearization.
-    - Proposed a Memory Polynomial variation with delay-dependent polynomial orders to balance modeling accuracy and hardware resource utilization.
+    - Proposed a delay-dependent Memory Polynomial variant for hardware-efficient DPD and RF power amplifier behavioral modeling.
+    - Evaluated trade-offs between modeling accuracy, polynomial order, memory depth, and hardware-oriented complexity.
   ],
   date-from: "2026"
 )
 
 #project(
-  title: "MSc Dissertation — Digital Predistortion for RF Power Amplifiers",
+  title: "M.Sc. Dissertation — Digital Predistortion for RF Power Amplifiers",
   description: [
-    - In progress. Research focuses on DPD modeling, fixed-point analysis, VHDL implementation, FPGA validation, and ASIC-oriented design exploration.
-    - Includes evaluation of Memory Polynomial models, variable-order structures, LUT-based implementations, and hardware cost versus modeling accuracy trade-offs.
+    - Ongoing research on DPD behavioral modeling, fixed-point DSP, VHDL architectures, FPGA-oriented validation, and hardware-efficiency analysis.
+    - Investigates Memory Polynomial models, variable-order structures, LUT-based implementations, and accuracy-versus-cost trade-offs.
   ],
   date-from: "2025--2026"
 )
 
-=== Full Papers in Conference Proceedings
+=== Full Conference Papers
 
 #project(
-  title: "Digital predistorter described in VHDL and based on Memory Polynomial",
+  title: "VHDL Description of a Memory Polynomial-Based Digital Predistorter",
   subtitle: "Lima, E. G.; Franca, S. B. L.; Santos, L. A. — SeMicro-PR, Curitiba, Brazil",
   description: [
-    - Conference paper related to VHDL implementation of a Memory Polynomial-based digital predistorter.
+    - Published conference paper on the VHDL description of a Memory Polynomial-based digital predistorter.
   ],
   date-from: "2024"
 )
 
 #project(
-  title: "Accuracy of Memory Polynomials with fixed-point processing",
+  title: "Accuracy of Memory Polynomials with Fixed-Point Processing",
   subtitle: "Lima, E. G.; Franca, S. B. L.; Santos, L. A. — Paranaense Microelectronics Conference, Curitiba, Brazil",
   description: [
-    - Conference paper focused on fixed-point processing accuracy in Memory Polynomial-based modeling.
+    - Published conference paper evaluating fixed-point effects in Memory Polynomial-based modeling.
   ],
   date-from: "2023"
 )
 
 #project(
-  title: "Design of a dedicated integrated circuit for a TRNG based on ring oscillators",
+  title: "Design of a Dedicated Integrated Circuit for a Ring Oscillator-Based TRNG",
   subtitle: "Santos, L. A.; Franca, S. B. L.; Lima, E. G. — SeMicro-PR, Curitiba, Brazil",
   description: [
-    - Conference paper on a dedicated integrated circuit design for a ring-oscillator-based True Random Number Generator.
+    - Published conference paper on a dedicated digital IC design for a ring oscillator-based true random number generator.
   ],
   date-from: "2022"
 )
@@ -101,78 +112,93 @@
 === Abstracts in Conference Proceedings
 
 #project(
-  title: "FPGA-based digital predistorters for wireless transmitters",
+  title: "FPGA-Based Digital Predistorters for Wireless Transmitters",
   subtitle: "Santos, L. A.; Lima, E. G.; Franca, S. B. L. — 14th SIEPE, Curitiba, Brazil",
   date-from: "2023"
 )
 
 #project(
-  title: "Design of a dedicated integrated circuit for a TRNG based on ring oscillators",
+  title: "Design of a Dedicated Integrated Circuit for a Ring Oscillator-Based TRNG",
   subtitle: "Santos, L. A.; Franca, S. B. L. — 13th SIEPE, Curitiba, Brazil",
   date-from: "2022"
 )
 
-=== Selected Presentations and Academic Events
+=== Selected Academic Presentations
 
 #project(
-  title: "Paranaense Microelectronics Conference — Seminar presentation",
-  subtitle: "Digital predistorter described in VHDL and based on Memory Polynomial",
+  title: "Paranaense Microelectronics Conference — Seminar Presentation",
+  subtitle: "VHDL Description of a Memory Polynomial-Based Digital Predistorter",
   date-from: "2024"
 )
 
 #project(
-  title: "Paranaense Microelectronics Conference — Seminar presentation",
-  subtitle: "Accuracy of Memory Polynomials with fixed-point processing",
+  title: "Paranaense Microelectronics Conference — Seminar Presentation",
+  subtitle: "Accuracy of Memory Polynomials with Fixed-Point Processing",
   date-from: "2023"
 )
 
 #project(
-  title: "SIEPE — Seminar presentation",
-  subtitle: "FPGA-based digital predistorters for wireless transmitters",
+  title: "SIEPE — Seminar Presentation",
+  subtitle: "FPGA-Based Digital Predistorters for Wireless Transmitters",
   date-from: "2023"
 )
 
 #project(
-  title: "Paranaense Microelectronics Conference — Seminar presentation",
-  subtitle: "Design of a dedicated integrated circuit for a TRNG based on ring oscillators",
+  title: "Paranaense Microelectronics Conference — Seminar Presentation",
+  subtitle: "Dedicated IC Design for a Ring Oscillator-Based TRNG",
   date-from: "2022"
 )
 
 #project(
-  title: "SIEPE — Seminar presentation",
-  subtitle: "Dedicated integrated circuit project for a TRNG based on ring oscillators",
+  title: "SIEPE — Seminar Presentation",
+  subtitle: "Dedicated IC Design for a Ring Oscillator-Based TRNG",
   date-from: "2022"
 )
 
 #project(
-  title: "SIEPE — Seminar presentation",
-  subtitle: "BigPET: a pedagogical and scientific experiment in data science and machine learning",
+  title: "SIEPE — Seminar Presentation",
+  subtitle: "BigPET: A Pedagogical and Scientific Experiment in Data Science and Machine Learning",
   date-from: "2021"
 )
 
 #project(
-  title: "SIEPE — Seminar presentation",
-  subtitle: "PET 3D: encouraging maker culture within PET",
+  title: "SIEPE — Seminar Presentation",
+  subtitle: "PET3D: Encouraging Maker Culture in PET",
   date-from: "2021"
 )
 
 == Research Experience
 
 #experience(
-  title: "MSc Researcher — Digital Predistortion and Hardware-Efficient DSP",
+  title: "Master's Researcher — Hardware-Efficient DPD and DSP",
   subtitle: "GICS-UFPR / Federal University of Paraná",
-  facility-description: "Research in circuits and systems for telecommunications",
+  facility-description: "Circuits and systems research for wireless communications",
   task-description: [
-    - Modeled RF power amplifier behavior using Memory Polynomial-based Digital Predistortion techniques.
-    - Evaluated floating-point and fixed-point implementations, including word-length optimization and integer-bound search.
-    - Developed a delay-dependent polynomial order approach, evaluating 125 model configurations and Pareto trade-offs between accuracy and complexity.
-    - Implemented the architecture in VHDL with pipelined datapaths and generate-based configurability.
-    - Verified numerical consistency between Python models and VHDL simulation results.
-    - Explored FPGA and ASIC implementation flows using Xilinx, simulation tools, and Cadence-based digital IC tools.
+    - Investigated RF power amplifier behavioral modeling using Memory Polynomial-based Digital Predistortion.
+    - Evaluated floating-point and fixed-point DSP models, including word-length optimization and integer-bound analysis.
+    - Proposed delay-dependent polynomial orders and evaluated 125 model configurations under Pareto trade-offs between accuracy and complexity.
+    - Validated VHDL architectures with pipelined datapaths and generate-based configurability.
+    - Validated numerical consistency between Python models and VHDL simulation results.
+    - Explored FPGA-oriented validation using Xilinx and HDL simulation tools.
   ],
   date-from: "03/2025",
   date-to: "Present",
-  label: "Research tasks",
+  label: "Research",
+)
+
+#experience(
+  title: "Undergraduate Researcher — Digital Predistortion",
+  subtitle: "GICS-UFPR / Federal University of Paraná",
+  facility-description: "DPD modeling, fixed-point processing, and hardware-oriented implementation",
+  task-description: [
+    - Investigated Memory Polynomial-based DPD for RF power amplifiers in undergraduate research.
+    - Evaluated fixed-point accuracy in Memory Polynomial models, resulting in a conference publication.
+    - Validated a VHDL digital predistorter for the undergraduate thesis, including digital IC implementation exploration.
+    - Presented modeling accuracy, fixed-point arithmetic, and hardware-cost trade-offs in academic venues.
+  ],
+  date-from: "08/2022",
+  date-to: "12/2024",
+  label: "Research",
 )
 
 #experience(
@@ -180,74 +206,93 @@
   subtitle: "GICS-UFPR / Federal University of Paraná",
   facility-description: "Digital circuit design and integrated circuit implementation",
   task-description: [
-    - Designed and evaluated a True Random Number Generator (TRNG) based on ring oscillators.
-    - Implemented and validated the architecture in VHDL and FPGA-oriented flows.
-    - Designed the circuit using a 130 nm BiCMOS 8HP technology flow.
-    - Used Cadence tools including NCLaunch, Genus, and Innovus for simulation, synthesis, and physical design exploration.
-    - Validated random output quality using NIST statistical tests.
+    - Investigated a ring oscillator-based True Random Number Generator (TRNG) for digital IC implementation.
+    - Evaluated and validated the architecture in VHDL and FPGA-oriented flows.
+    - Evaluated the circuit using a 130 nm BiCMOS 8HP technology flow.
+    - Applied Cadence NCLaunch, Genus, and Innovus for simulation, synthesis, and physical-design exploration.
+    - Validated output randomness using NIST statistical tests.
   ],
   date-from: "08/2021",
-  date-to: "12/2024",
-  label: "Research tasks",
+  date-to: "08/2022",
+  label: "Research",
 )
 
-== Teaching and Academic Activities
+== Research Projects
+
+#project(
+  title: "Hardware-Efficient Digital Predistortion",
+  description: [
+    - Proposed and evaluated Memory Polynomial DPD models for RF power amplifier linearization, with emphasis on delay-dependent polynomial orders.
+    - Evaluated fixed-point DSP and VHDL architectures targeting FPGA-oriented validation and reduced hardware complexity.
+    - Connected behavioral modeling, numerical validation, and implementation-aware design for wireless transmitters.
+  ],
+  date-from: "2023--2026"
+)
+
+#project(
+  title: "TRNG ASIC",
+  description: [
+    - Investigated a ring oscillator-based TRNG as a digital IC design project in a 130 nm technology flow.
+    - Evaluated VHDL architecture, synthesis, physical-design exploration, and NIST statistical validation.
+  ],
+  date-from: "2021--2022"
+)
+
+== Teaching & Academic Activities
 
 #experience(
   title: "Teaching Assistant — Digital Electronics and Microelectronics",
   subtitle: "Federal University of Paraná (UFPR)",
   facility-description: "Undergraduate teaching support",
   task-description: [
-    - Assisted students with digital electronics, microelectronics concepts, laboratory practices, and technical exercises.
-    - Supported practical activities involving digital logic, circuit analysis, and implementation-oriented topics.
+    - Supported students in digital electronics, microelectronics concepts, laboratory activities, and technical exercises.
+    - Assisted practical activities involving digital logic, circuit analysis, and implementation-oriented topics.
   ],
   date-from: "2021",
   date-to: "2024",
-  label: "Teaching support",
+  label: "Teaching",
 )
 
 #experience(
   title: "Python Course Instructor",
   subtitle: "Federal University of Paraná (UFPR)",
-  facility-description: "Technical training for Chemical Engineering students",
+  facility-description: "Complementary technical education for engineering students",
   task-description: [
     - Taught introductory Python programming for engineering applications.
     - Covered programming fundamentals, problem solving, and practical computational examples.
   ],
   date-from: "2021",
   date-to: "2024",
-  label: "Course topics",
+  label: "Teaching",
 )
 
 #experience(
-  title: "Administrative Manager and Project Member",
+  title: "Administrative Coordinator and Academic Project Member",
   subtitle: "SEATEL / PET UFPR",
-  facility-description: "Student academic and extension activities",
+  facility-description: "Student-led academic, outreach, and extension activities",
   task-description: [
-    - Organized courses, technical lectures, workshops, and academic activities.
-    - Participated in IoPET, BigPET, and PET3D projects involving IoT, machine learning, 3D printing, and educational outreach.
+    - Coordinated courses, technical seminars, workshops, and academic extension activities.
+    - Contributed to IoPET, BigPET, and PET3D, emphasizing teamwork, university outreach, complementary education, and student leadership.
   ],
   date-from: "08/2021",
   date-to: "12/2024",
-  label: "Activities",
+  label: "Academic extension",
 )
 
 == Professional Experience
 
 #experience(
-  title: "Embedded and Software Engineer",
+  title: "Software and Embedded Systems Engineer",
   subtitle: "IoTag Tecnologia",
   facility-description: "Precision agriculture and embedded IoT systems",
   task-description: [
-    - Developed embedded firmware in C/C++ for ESP32/ESP8266-based devices and virtual terminal interfaces for agricultural machinery.
-    - Built Python backend services using Flask/FastAPI, SQLAlchemy, PostgreSQL, Cassandra, and AWS S3.
-    - Developed computer vision and data processing tools using OpenCV and Python.
-    - Worked with Linux-based development workflows, embedded debugging, cloud integration, and database-backed applications.
-    - Contributed to CI/CD and automation workflows for software deployment and maintenance.
+    - Contributed embedded firmware in C/C++ for ESP32/ESP8266-based IoT devices and agricultural machine interfaces.
+    - Maintained Python services and data tools using Flask/FastAPI, SQLAlchemy, PostgreSQL, Cassandra, AWS S3, and OpenCV.
+    - Worked with Linux-based development, embedded debugging, cloud integration, CI/CD, and deployment automation.
   ],
   date-from: "10/2022",
   date-to: "02/2026",
-  label: "Achievements/Tasks",
+  label: "Industry",
 )
 
 #experience(
@@ -255,59 +300,31 @@
   subtitle: "Lactec",
   facility-description: "Technology and research institute",
   task-description: [
-    - Supported the development of capacitive water level and flow sensors for tidal energy generation systems.
-    - Worked on electronics, microcontroller programming, sensor integration, and experimental validation.
+    - Supported the development of capacitive water-level and flow sensors for tidal energy systems.
+    - Contributed to electronics, microcontroller programming, sensor integration, and experimental validation.
   ],
   date-from: "06/2022",
   date-to: "10/2022",
-  label: "Achievements/Tasks",
+  label: "Industry",
 )
 
-== Selected Technical Projects
+== Engineering Projects
 
 #project(
-  title: "Hardware-Efficient Digital Predistorter in VHDL",
+  title: "UFPR Baja SAE — Electrical Subsystem",
   description: [
-    - Implemented a configurable VHDL architecture for Memory Polynomial-based DPD.
-    - Used pipelined datapaths, fixed-point arithmetic, and delay-dependent polynomial orders.
-    - Compared FPGA-oriented resource utilization and modeling accuracy against conventional implementations.
-  ],
-  date-from: "2025--2026"
-)
-
-#project(
-  title: "TRNG Integrated Circuit in 130 nm Technology",
-  description: [
-    - Designed a ring-oscillator-based TRNG using VHDL and digital IC implementation tools.
-    - Synthesized and explored physical implementation using Cadence Genus and Innovus.
-    - Validated output randomness with NIST statistical tests.
-  ],
-  date-from: "2021--2024"
-)
-
-#project(
-  title: "UFPR Baja SAE Electrical System",
-  description: [
-    - Developed wiring harnesses, telemetry support, embedded firmware, and PCB-related tasks for an off-road competition vehicle.
-    - Participated in system integration, electrical design, and vehicle testing.
-    - Team achievements included 1st place in the 2019 Regional South electrical project, 11th place nationally in 2020, and 2nd place in the 2020 Regional South electrical project.
+    - Contributed to a student engineering team through electrical design, wiring harnesses, telemetry support, firmware, PCB-related activities, integration, and vehicle testing.
+    - Participated in an academic competition environment emphasizing teamwork, leadership, documentation, and engineering excellence.
+    - Team results included 1st place in Electrical Design at the 2019 South Regional, 11th place nationally in 2020, and 2nd place in Electrical Design at the 2020 South Regional.
   ],
   date-from: "2019--2021"
 )
 
 #project(
-  title: "IoPET Smart Lock",
+  title: "PET UFPR — Academic Extension Projects",
   description: [
-    - Developed an IoT electronic lock using ESP-01/ESP8266 and MQTT for remote control and embedded communication.
-  ],
-  date-from: "2021--2024"
-)
-
-#project(
-  title: "BigPET Fake News Detector",
-  description: [
-    - Led a machine learning project for text classification and fake news detection using Python.
-    - Explored models such as Logistic Regression, KNN, and Random Forest.
+    - Participated in IoPET, BigPET, and PET3D within a university extension program focused on complementary education and student-led technical development.
+    - Contributed to IoT, machine learning, 3D printing, course organization, outreach activities, and collaborative academic training.
   ],
   date-from: "2021--2024"
 )
@@ -316,32 +333,32 @@
 
 #pill("VHDL", fill: true)
 #pill("Verilog", fill: true)
-#pill("FPGA design", fill: true)
-#pill("Digital IC design", fill: true)
-#pill("ASIC flow", fill: true)
-#pill("Fixed-point DSP", fill: true)
-#pill("Digital predistortion", fill: true)
-#pill("RF power amplifier modeling", fill: true)
+#pill("FPGA Design", fill: true)
+#pill("Digital IC Design", fill: true)
+#pill("ASIC Flow", fill: true)
+#pill("Fixed-Point DSP", fill: true)
+#pill("Digital Predistortion", fill: true)
+#pill("Memory Polynomial", fill: true)
+#pill("RF Power Amplifier Modeling", fill: true)
+#pill("Behavioral Modeling", fill: true)
 #pill("Python", fill: true)
 #pill("MATLAB", fill: true)
 #pill("C/C++", fill: true)
 #pill("Embedded Linux", fill: true)
 #pill("ESP32/ESP8266", fill: true)
-#pill("FastAPI", fill: true)
-#pill("Flask", fill: true)
-#pill("PostgreSQL", fill: true)
 #pill("SQLAlchemy", fill: true)
-#pill("Cassandra", fill: true)
-#pill("AWS S3", fill: true)
-#pill("OpenCV", fill: true)
 #pill("Git", fill: true)
 #pill("CI/CD", fill: true)
+#pill("FastAPI")
+#pill("Flask")
+#pill("PostgreSQL")
+#pill("Cassandra")
+#pill("AWS S3")
+#pill("OpenCV")
 
-== EDA, Simulation and Development Tools
+== EDA Tools
 
-#pill("Cadence Genus")
-#pill("Cadence Innovus")
-#pill("Cadence NCLaunch")
+#pill("Cadence Genus / Innovus / NCLaunch")
 #pill("Xilinx ISE")
 #pill("Vivado")
 #pill("ModelSim / Questa")
@@ -353,10 +370,9 @@
 #pill("Proteus")
 #pill("Linux")
 #pill("Neovim")
+#pill("VS Code")
 
-#colbreak()
-
-== Certifications and Coursework
+== Certifications
 
 #project(
   title: "Machine Learning with Python",
